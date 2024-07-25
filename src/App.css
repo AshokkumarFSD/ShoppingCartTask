@@ -1,0 +1,42 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-left:30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: aqua; 
+  justify-content: space-between;
+}
+
+.product_coordinator{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+
+.product_container {
+  margin: 20px;
+  width: 250px;
+  border-radius: 3px;
+  border: 1px solid #8b8c8a;
+}
+
+.cart_button{
+  border-radius: 8px;
+  border: 1px solid #8b8c8a;
+}
